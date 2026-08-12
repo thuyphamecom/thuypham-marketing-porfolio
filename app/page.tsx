@@ -142,14 +142,12 @@ export default function Home() {
         <section className="hero shell">
           <div className="hero-copy reveal is-visible">
             <p className="hero-kicker">MARKETING PORTFOLIO</p>
-
-<h1 className="hero-name">
-  Phạm Thị Thùy
-</h1>
-
-<p className="hero-role">
-  Marketing Intern
-</p>
+              <h1 className="hero-name">
+                Phạm Thị Thùy
+              </h1>
+              <p className="hero-role">
+                Marketing Intern
+              </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Xem dự án <span>↓</span></a>
               <a className="button button-secondary" href={profile.cv} target="_blank" rel="noreferrer">Tải CV <Arrow /></a>
@@ -160,15 +158,15 @@ export default function Home() {
             <div className="hero-orbit orbit-one" />
             <div className="hero-orbit orbit-two" />
             <div className="portrait-card portrait-photo-card">
-  <Image
-    src="/portrait.jpg"
-    alt="Ảnh chân dung Phạm Thị Thùy"
-    fill
-    priority
-    unoptimized
-    sizes="(max-width: 920px) 70vw, 420px"
-  />
-</div>
+              <Image
+                src="/portrait.jpg"
+                alt="Ảnh chân dung Phạm Thị Thùy"
+                fill
+                priority
+                unoptimized
+                sizes="(max-width: 920px) 70vw, 420px"
+              />
+            </div>
             <div className="floating-proof proof-one"><Image src="/images/moonspark/top-content.webp" alt="Minh chứng dự án MoonSpark" fill unoptimized sizes="260px" /></div>
             <div className="floating-proof proof-two"><Image src="/images/natura/homepage-lighthouse.webp" alt="Minh chứng dự án Natura" fill unoptimized sizes="230px" /></div>
             <div className="hero-note">Tỉ mỉ trong triển khai<br /><strong>Có căn cứ khi đánh giá</strong></div>
